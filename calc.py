@@ -16,15 +16,25 @@ def calc_square(value):
 
 def calc_cube(value):
    return value * value * value
-   
+
+def calc_sqrt(value):
+   return value ** 0.5
+
+def calc_recip(value):
+   return 1.0 / value
+
 # 3) Call each function by passing the integer variable to each 
 
 # For example:
 
 square = calc_square(value)
 cube = calc_cube(value)
+sqrt = calc_sqrt(value)
+recip = calc_recip(value)
 
 # 4) print the results to screen
 
 print('Square of', value, 'is :', square)
 print('Cube of', value, 'is :', cube)
+print('Square Root of', value, 'is :', sqrt)
+print('Reciprocal of', value, 'is :', recip)
